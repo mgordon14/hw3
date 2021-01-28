@@ -18,7 +18,8 @@ function pageLoad() {
   let passenger2Name, passenger2Phone, passenger2NumberOfPassengers = getRandomInt(ride.passenger2Name)
   let passenger3Name, passenger3Phone, passenger3NumberOfPassengers = getRandomInt(ride.passenger3Name)
 
-  let passenger1DropoffAddressLine1  
+  let passenger1DropoffAddressLine1 = getRandomInt(ride.passenger1DropoffAddressLine1)
+  
   
 
 
